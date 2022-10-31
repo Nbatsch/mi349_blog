@@ -1,0 +1,54 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+
+}
+
+p {
+    line-height: 1.4em;
+    width: 1250px;
+    margin: 20px;
+
+}
+
+#blog {
+    border-top: 2px dotted #C0C0C0;
+}
+
+.blog-post {
+    border-bottom: 2px dotted #C0C0C0;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#newsletter {
+
+}
+
+#.container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 10em;
+}

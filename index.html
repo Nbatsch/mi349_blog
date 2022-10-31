@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Nick's Blog</title>
 </head>
 <body>
@@ -17,8 +18,10 @@
 </nav>
 </header>
 <h2>My Blog</h2>
-<section><article><h3>First Impressions of Disney's Andor</h3>
-    <p>By <author>Nicholas Batschynsky</author></p>
+<section id ="blog">
+    <article class="blog-post">
+        <h3>First Impressions of Disney's Andor</h3>
+    <address class="author">By <a rel="author" href="https://www.linkedin.com/in/nicholas-batschynsky-881372207/">Nicholas Batschynsky</a></address>
        <p>Published: 10/16/2022</p>
     <p>
             As someone who is a very big fan of the <em>Star Wars</em> franchise, I was very excited
@@ -27,7 +30,7 @@
         28th with three episodes, which was a nice chunk of content for us fans to sink our 
         teeth into. These first few episodes were solid and provided a good foundation for 
         the rest of the show. Immediately you could tell that they wanted to emphasize the 
-        darker tone that the show would take compared to most other <em>Star Wars</em>> content. Sure 
+        darker tone that the show would take compared to most other <em>Star Wars</em> content. Sure 
         <em>The Mandalorian</em> is about an intergalactic bounty hunter, but he also has a wholesome 
         child to take care of and attempts to act with some degree of morality. <em>Andor</em> 
         imediately dispels the idea of this show being another tame Star Wars series when 
@@ -42,9 +45,10 @@
         episode every Wednesday.
     </p>
     <p><img src="andor-poster.jpeg" alt="Andor official Poster"></p>
-</article>
-<article><h3>Is the New Modern Warfare 2 a Worthy Successor to the 2009 Classic?</h3>
-    <p>By <author>Nicholas Batschynsky</author></p>
+    </article>
+    <article class="blog-post">
+    <h3>Is the New Modern Warfare 2 a Worthy Successor to the 2009 Classic?</h3>
+    <address class="author">By <a rel="author" href="https://www.linkedin.com/in/nicholas-batschynsky-881372207/">Nicholas Batschynsky</a></address>
        <p>Published: 10/16/2022</p>
     <p>
             With the new Call of Duty: Modern Warfare 2 almost here, lets talk a 
@@ -78,6 +82,11 @@
                 High Rise, Rust, and Favela</em> which fans would love to see. Overall, I think
                 Modern Warfare 2 2022 is shaping up to be worthy of representing the MW2 name. 
        </p>
+
+<div class="container">
+    <div class="item">MW2 Map Breakdown</div>
+    </div>
+    
 <table>
 <tr>
     <th>Original Maps</th>
@@ -161,28 +170,27 @@
 </tr>
 </table>
 
-<p>    <p><img src="MWII.jpeg" alt="Modern Warfare 2 Official Poster"></p>
-</p>
+<p><img src="MWII.jpeg" alt="Modern Warfare 2 Official Poster"></p>
+
 </article>
 </section>
 <section id="newsletter">
     <h4>Subscribe for more Info!</h4>
     <form>
     <div class="form">
-      <label>Name: </label>
-      <input>
+      <label>Name:</label><br>
+      <input id="fname" name="name" type="text">
     </div>
     <div class="form">
-      <label>Email Address: </label>
-      <input>
+      <label>Email Address:</label><br>
+      <input id="femail" name="email" type="text">
     </div>
-    <div class="form"
-        <label>Reason for contact: </label>
-        <input>
-</div>
-    <div class ="form"
-    <label>Open comment: </label>
-    <input>
+    <div class="form"></div>
+    <label>Reason for contact:</label><br>
+    <input id="freason" name="reasoning" type="text">
+    <div class ="form"></div>
+    <label>Open comment:</label><br>
+    <input id="ocomment" name="comment" type="text">
     <div class="form">
       <input type="submit" value="Subscribe">
     </div>
