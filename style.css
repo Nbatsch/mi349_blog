@@ -83,11 +83,10 @@ body {
 }
 
 .float-left {
-    background: black; 
-    height 450px;
-    width: 450px;
+    height: 550px;
+    width: 400px;
     float: left;
-    margin-right: 30px;
+    margin-right: 10px;
     font-size: 0.7em;
 }
 
