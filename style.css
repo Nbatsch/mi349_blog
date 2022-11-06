@@ -1,9 +1,9 @@
 html {
-    background: #e3e3e3;
+    background: cornflowerblue;
 }
 
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 40px;
     padding: 40px;
     color: #242424;
@@ -29,27 +29,98 @@ p {
 }
 
 .blog-post {
+    margin-bottom: 30px;
     border-bottom: 2px dotted #C0C0C0;
 
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
-#newsletter {
-
-}
+#newsletter {}
 
 .container {
-    height: 200px;
+    height: 100px;
     display: flex;
+    padding: 30px;
+    margin: 160px;
     align-items: center;
     justify-content: center;
-    
+    border: 0.2px solid black;
+
 }
 
 .item {
     width: 10em;
+}
+
+body {
+    min-height: 50em;
+  }
+  .mw2-maps {
+    background: beige;
+    position: relative;
+    top: -130px;
+    left: 40px;
+  }
+  
+  .blog-title {
+    background: rgb(206, 197, 197);
+    position: sticky;
+    top: 0px;
+  }
+
+  .float-right {
+    background: black;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-right: 10px;
+    font-size: 0.7em;
+  }
+
+  .float-left {
+    background: black
+    height: 450px;
+    width: 450px;
+    float: left;
+    margin-right: 30px;
+    font-size: 0.7em;
+  }
+
+    th {
+    font-size: 1.2em;
+    padding: 20px;
+    border-bottom: 3px dotted grey; 
+    padding-bottom: 15px;
+    }
+
+td {
+    padding-top: 15px;
+    border: 2px solid grey;
+}
+
+.colorful{
+    display: flex;
+}
+
+#contact-form {
+
+}
+
+aside {
+    background: rgb(137, 14, 137);
+    color: white;
+    flex: 2;
+}
+
+.aside-divide {
+    background: goldenrod;
+    color: black;
+    flex: 4;
+}
+.flexy {
+    display: flex;
 }
