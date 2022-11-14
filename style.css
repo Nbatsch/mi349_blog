@@ -123,3 +123,65 @@ aside {
 .flexy {
     display: flex;
 }
+
+
+/* Flexbox*/
+
+
+/* Grid */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+#c1 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 400px) {
+    #c1 {
+        background: blueviolet
+    }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+        
+        
+    }
+
+    p {
+        line-height: -5em;
+        width: auto;
+    }
+
+    #blog { 
+    display:inline
+}
+
+    img{ 
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin: -5px;
+    }
+
+    .mw2-maps{ 
+        position: static;
+        width: auto;
+        margin: -10px;
+    
+    }
+    th {
+        font-size: 0.7em;
+        padding: 10px;
+        border-bottom: 3px dotted grey;
+        padding-bottom: 15px;
+    }
+}
