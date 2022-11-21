@@ -19,8 +19,8 @@ h1 {
 
 p {
     line-height: 1.4em;
-    width: 1250px;
     margin: 20px;
+    clear: both;
 
 }
 
@@ -152,31 +152,32 @@ aside {
     body {
         margin: 10px;
         padding: 10px;
-        
-        
+
+
     }
 
     p {
         width: auto;
     }
 
-    #blog { 
-    display:inline
-}
+    #blog {
+        display: inline
+    }
 
-    img{ 
+    img {
         max-width: 100%;
         width: auto;
         height: auto;
         margin: -5px;
     }
 
-    .mw2-maps{ 
+    .mw2-maps {
         position: static;
         width: auto;
         margin: -10px;
-    
+
     }
+
     th {
         font-size: 0.7em;
         padding: 10px;
